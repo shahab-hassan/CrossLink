@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/common.css">
+    <link rel="stylesheet" href="../CSS/signin.css">
+    <link rel="stylesheet" href="../CSS/footer.css">
+    <link rel="stylesheet" href="../CSS/cart.css">
+    <link rel="stylesheet" href="../CSS/header.css">
+
+    <title>Your Cart</title>
+
+</head>
+
+<body>
+
+    <!-- *********************** HEADER PAGE ********************** -->
+    <header>
+        <div class="headerContent">
+            <div class="headerUpper">
+                <div class="logoDiv">
+                    <img src="../Images/logo.png" id="logo" alt="Error">
+                </div>
+                <div class="webNameDiv">
+                    <div class="webName">CrossLink</div>
+                </div>
+            </div>
+
+            <!-- **** Navigation **** -->
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="products.html">Shop Now</a></li>
+                    <li><a href="signin.html">Sign In</a></li>
+                    <li><a href="cart.html">Your Cart</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <!-- *********************** CART PAGE ********************** -->
+    <div class="cartMain">
+        <div class="cartContainer">
+            <div class="shoppingCart">
+                <div class="shoppingCartContent">
+                    <div class="cartHeadingDiv commonHeadingDiv">
+                        <h1 class="cartHeading commonHeading">Shopping Cart</h1>
+                    </div>
+                    <div class="itemsList">
+                        <div class="item">
+                            <div class="itemImgNameDiv">
+                                <div class="itemImgDiv">
+                                    <img src="../Images/ProductsImages/products6.jpg" class="itemImg" alt="Error">
+                                </div>
+                                <div class="itemNameDiv">
+                                    <span class="itemName">Fossil Women's Handbag</span>
+                                </div>
+                            </div>
+                            <div class="quantityDiv">
+                                <div class="counter"><span>+</span></div>
+                                <span class="quantity">2</span>
+                                <div class="counter"><span>-</span></div>
+                            </div>
+                            <div class="itemPriceDiv">
+                                <span class="itemPrice">$250</span>
+                            </div>
+                            <div class="removeDiv">
+                                <span class="removeItem"><i class="fa-solid fa-xmark"></i></span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="itemImgNameDiv">
+                                <div class="itemImgDiv">
+                                    <img src="../Images/ProductsImages/products5.jpg" class="itemImg" alt="Error">
+                                </div>
+                                <div class="itemNameDiv">
+                                    <span class="itemName">Samsung Galaxy SmartWatch</span>
+                                </div>
+                            </div>
+                            <div class="quantityDiv">
+                                <div class="counter"><span>+</span></div>
+                                <span class="quantity">1</span>
+                                <div class="counter"><span>-</span></div>
+                            </div>
+                            <div class="itemPriceDiv">
+                                <span class="itemPrice">$180</span>
+                            </div>
+                            <div class="removeDiv">
+                                <span class="removeItem"><i class="fa-solid fa-xmark"></i></span>
+                            </div>
+                        </div>
+                        <div class="item lastItem">
+                            <div class="itemImgNameDiv">
+                                <div class="itemImgDiv">
+                                    <img src="../Images/ProductsImages/product3.jpg" class="itemImg" alt="Error">
+                                </div>
+                                <div class="itemNameDiv">
+                                    <span class="itemName">Galdon Men's T-Shirt</span>
+                                </div>
+                            </div>
+                            <div class="quantityDiv">
+                                <div class="counter"><span>+</span></div>
+                                <span class="quantity">3</span>
+                                <div class="counter"><span>-</span></div>
+                            </div>
+                            <div class="itemPriceDiv">
+                                <span class="itemPrice">$155</span>
+                            </div>
+                            <div class="removeDiv">
+                                <span class="removeItem"><i class="fa-solid fa-xmark"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cartSummary">
+                <div class="summaryContainer">
+                    <div class="summaryContent">
+                        <div class="summaryHeadingDiv commonHeadingDiv">
+                            <h1 class="summaryHeading commonHeading">Summary</h1>
+                        </div>
+                        <div class="infoDiv">
+                            <div class="promoDiv">
+                                <label for="promo">Promo Code: </label>
+                                <input type="text" name="promo" class="promoInput" placeholder="Enter promo Code...">
+                            </div>
+                            <div class="addressDiv">
+                                <label for="address">Address: </label>
+                                <textarea name="address" class="addressInput" cols="30" rows="10" placeholder="Enter complete address..."></textarea>
+                            </div>
+                        </div>
+                        <div class="checkoutDiv">
+                            <div class="totalItemsDiv final">
+                                <span>Total Items: </span><div>3 Items</div>
+                            </div>
+                            <div class="subtotalDiv final">
+                                <span>Total Price: </span><div class="subtotal">$585</div>
+                            </div>
+                            <button class="btn checkoutBtn">Checkout</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ******************************* FOOTER ON HOME PAGE ****************************** -->
+    <footer class="footerMain">
+        <section class="section">
+            <div class="footerDiv">
+                <div class="mainFooterTxt">
+                    <div class="f-about">
+                        <h3>About</h3>
+                        <p>Welcome to the World of CrossLink. Here on our website you will find awesome and high quality
+                            products to purchase. Stay Connected!</p>
+                    </div>
+                    <div class="f-links">
+                        <h3>Links</h3>
+                        <ul>
+                            <li><i class="fa-solid fa-arrow-right-long"></i><a href="index.html">Home</a></li>
+                            <li><i class="fa-solid fa-arrow-right-long"></i><a href="blog.html">Blog</a></li>
+                            <li><i class="fa-solid fa-arrow-right-long"></i><a href="products.html">Shop Now</a></li>
+                            <li><i class="fa-solid fa-arrow-right-long"></i><a href="signin.html">Sign In</a></li>
+                            <li><i class="fa-solid fa-arrow-right-long"></i><a href="cart.html">Your Cart</a></li>
+                        </ul>
+                    </div>
+                    <div class="f-services">
+                        <h3>Products Type</h3>
+                        <ul>
+                            <li><i class="fa-solid fa-arrow-right-long"></i><a href="/">T-Shirts</a></li>
+                            <li><i class="fa-solid fa-arrow-right-long"></i><a href="/">SmartPhones</a></li>
+                            <li><i class="fa-solid fa-arrow-right-long"></i><a href="/">Laptops</a></li>
+                            <li><i class="fa-solid fa-arrow-right-long"></i><a href="/">Hoods</a></li>
+                            <li><i class="fa-solid fa-arrow-right-long"></i><a href="/">HandBags</a></li>
+                        </ul>
+                    </div>
+                    <div class="f-address">
+                        <h3>Have a Question?</h3>
+                        <ul>
+                            <li><i class="fa-solid fa-location-dot"></i><a href="/">Rawalpindi, Pakistan</a></li>
+                            <li><i class="fa-solid fa-phone"></i><a href="tel:+923149501334">+92 3149501223</a></li>
+                            <li><i class="fa-solid fa-envelope"></i><a
+                                    href="mailto:shahabspeaks567@gmail.com">abdulsami@gmail.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="copywriteTxt">
+                    <p>Copyright © 2022 All rights reserved | This Website is made with ❤ by Abdul Sami Shahid</p>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/6ee2ea3821.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

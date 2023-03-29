@@ -1,0 +1,67 @@
+/* *****************************************************************
+BLOG PAGE STYLE START
+***************************************************************** */
+
+.blogMain{
+    margin: 80px 0px;
+}
+.blogsHeadingDiv{
+    margin-bottom: 0px;
+}
+.blogsHeadingDiv::after{
+    width: 17%;
+}
+.blogHeading{
+    font-weight: 700;
+}
+
+.postsDiv{
+    display: grid;
+    gap: 35px;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 50px;
+    padding: 40px 5px;
+}
+
+.postsDiv .post{
+    width: 100%;
+    padding: 12px 0px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 10px 5px var(--shadow);
+    transform: translateY(0%);
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+.postsDiv .post:hover{
+    transform: translateY(-5%);
+}
+.postsDiv .post .postContent{
+    width: 90%;
+    margin: auto;
+}
+
+.postsDiv .post .postpostImgDiv{
+    width: 100%;
+}
+.postsDiv .post .postContent .postImgDiv img{
+    width: 100%;
+    border-radius: 8px;
+}
+.postsDiv .post .postContent .postCategory{
+    font-size: 11px;
+    margin: 10px 0px;
+    background-color: var(--mainColor);
+    color: var(--white);
+    display: inline-block;
+    padding: 2px 6px;
+    font-weight: 500;
+}
+.postsDiv .post .postContent .postTitle{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.postsDiv .post .postContent .postBtn{
+    font-size: 15px;
+    color: var(--mainColor);
+    font-weight: 600;
+}

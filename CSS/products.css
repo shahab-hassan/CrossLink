@@ -1,0 +1,50 @@
+/* ************************ PRODUCTS SECTION DESIGN ***************************  */
+.productsMain{
+    margin: 80px 0px;
+}
+.FPHeadingDiv::after{
+    width: 31%;
+}
+
+.FPProductsDiv{
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 70px;
+    row-gap: 70px;
+}
+
+.FPProduct{
+    width: 100%;
+    cursor: pointer;
+}
+.FPProductImgDiv{
+    margin-bottom: 10px;
+}
+.FPProductImgDiv .FPProductImg{
+    width: 100%;
+}
+
+.FPProduct .FPProductTitle{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    color: var(--lightBlack);
+}
+
+.FPProduct .FPProductPrice{
+    font-size: 25px;
+    font-weight: 700;
+    color: var(--mainColor);
+}
+.addToCartBtn{
+    width: 100%;
+}
+
+.footerDiv{
+    border: none;
+}

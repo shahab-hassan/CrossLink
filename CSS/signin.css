@@ -1,0 +1,60 @@
+/* ********************** SIGN IN PAGE DESIGN **************************** */
+
+.signInMain{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 87vh;
+    background-color: var(--darkRed);
+}
+.signInMain form{
+    width: 35%;
+    background-color: var(--lightWhite);
+    padding: 50px 50px;
+    padding-bottom: 30px;
+}
+.formHeadingDiv::after{
+    width: 35%;
+}
+
+.signInMain .formDetails label, .registerMain .formDetails label{
+    color: var(--black);
+    font-weight: 600;
+}
+input{
+    display: block;
+    width: 100%;
+    outline: none;
+    border: 1px solid var(--black);
+    padding: 10px 10px;
+    margin-top: 5px;
+    margin-bottom: 12px;
+    background: none;
+}
+
+.signInBtn, .registerBtn{
+    width: 40%;
+}
+
+.checkingSignUpDiv, .checkingSignInDiv{
+    margin-top: 15px;
+}
+.checkingSignUp, .checkingSignIn{
+    text-align: center;
+    color: var(--lightBlack);
+    font-size: 15px;
+    text-decoration: none;
+    display: block;
+}
+
+
+
+
+/* FOOTER SETTING  */
+.footerMain{
+    margin-top: 0px;
+}
+.footerDiv{
+    border-top: 2px solid var(--white);
+}

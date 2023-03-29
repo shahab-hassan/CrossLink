@@ -1,0 +1,67 @@
+/* ************************ FOOTER SECTION ***************************  */
+.footerMain {
+    background-color: var(--darkRed);
+    margin-top: 120px;
+    margin-bottom: 0px;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.footerDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    place-items: center;
+}
+
+.mainFooterTxt {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 50px;
+    transition: all 0.3s ease-in-out;
+    padding-bottom: 20px;
+}
+
+.mainFooterTxt h3 {
+    color: var(--white);
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.mainFooterTxt p,
+.mainFooterTxt i,
+.mainFooterTxt a {
+    color: var(--extraLightBlack);
+    text-decoration: none;
+}
+
+.mainFooterTxt a:hover {
+    color: var(--white);
+}
+
+.f-about p {
+    width: 90%;
+    line-height: 30px;
+}
+
+.f-links ul,
+.f-address ul,
+.f-services ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.f-links ul li i,
+.f-address ul li i,
+.f-services ul li i {
+    margin-right: 15px;
+}
+
+.copywriteTxt p {
+    color: var(--white);
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 30px;
+}

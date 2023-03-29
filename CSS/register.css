@@ -1,0 +1,15 @@
+.registerMain{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 110vh;
+    background-color: var(--darkRed);
+}
+
+.registerMain form{
+    width: 45%;
+    background-color: var(--lightWhite);
+    padding: 50px 50px;
+    padding-bottom: 30px;
+}

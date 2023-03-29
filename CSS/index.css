@@ -1,0 +1,278 @@
+/* ************************ DESIGNING MAIN SECTION OF HOME PAGE ***************************  */
+
+main{
+    position: relative;
+    width: 100vw;
+    background-color: var(--mainBg);
+    margin-bottom: 80px;
+}
+
+main .section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 70px 0px;
+}
+
+/* ***** MAIN PAGE CONTENT ***** */
+
+.mainContent p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 22px;
+    position: relative;
+    top: 7px;
+    letter-spacing: 3px;
+    color: var(--lightBlack);
+}
+.mainContent .mainHeading{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 120px;
+    color: var(--mainColor);
+    text-align: center;
+}
+
+
+/* ***** Buttons of Main Page ***** */
+
+.mainBtns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 12px;
+}
+
+#mainUpperBtns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+#mainUpperBtns a{
+    border: 2px solid var(--mainColor);
+    padding: 7px 15px;
+    cursor: pointer;
+    text-align: center;
+    color: var(--mainColor);
+    width: 220px;
+    font-weight: 600;
+    transition: 0.25s;
+    text-decoration: none;
+}
+#mainUpperBtns a:hover{
+    color: var(--white);
+    background-color: var(--mainColor);
+}
+
+.mainShopBtnDiv{
+    width: 100%;
+}
+.mainShopBtnDiv .mainShopBtn{
+    display: block;
+    background-color: var(--mainColor);
+    color: var(--white);
+    width: 100%;
+    margin: auto;
+    border: 2px solid var(--mainColor);
+    padding: 7px 15px;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.25s;
+    font-weight: 600;
+    text-decoration: none;
+}
+.mainShopBtnDiv .mainShopBtn:hover{
+    background: none;
+    color: var(--mainColor);
+}
+
+/* ***** Main Page Image ***** */
+.mainImgDiv #mainImg{
+    width: 500px;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+/* ************************ DESIGNING FP (Featured Products) Section ***************************  */
+.mainFPDiv{
+    margin: 80px 0px;
+}
+.FPHeadingDiv::after{
+    width: 31%;
+}
+
+.FPProductsDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.FPProduct{
+    width: 20%;
+    cursor: pointer;
+}
+.FPProductImgDiv{
+    margin-bottom: 10px;
+}
+.FPProductImgDiv .FPProductImg{
+    width: 270px;
+}
+
+.FPProduct .FPProductTitle{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    color: var(--lightBlack);
+}
+
+.FPProduct .FPProductPrice{
+    font-size: 25px;
+    font-weight: 700;
+    color: var(--mainColor);
+}
+#product1Img{
+    height: 335px;
+}
+.addToCartBtn{
+    width: 100%;
+}
+
+.FPBtnDiv{
+    margin: 30px auto;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    width: 30%;
+    border: 2px solid var(--black);
+    text-align: center;
+    background-color: var(--mainColor);
+    border: none;
+    padding: 8px 0px;
+    cursor: pointer;
+}
+.FPBtnDiv a{
+    color: var(--white);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+/* ************************ DESIGNING REGISTER Section ***************************  */
+.mainRegisterDiv{
+    background-color: var(--darkRed);
+    margin: 80px 0px;
+    height: 25vh;
+}
+.registerDivContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 100%;
+    width: 100%;
+}
+.registerDivContent p{
+    color: var(--white);
+    font-weight: 500;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+}
+.registerDivContent a{
+    text-decoration: none;
+    border: 3px solid var(--mainColor);
+    color: var(--white);
+    padding: 6px 15px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: var(--mainColor);
+    transition: 0.2s;
+}
+.registerDivContent a:hover{
+    box-shadow: 1px 1px 10px 0.5px var(--mainColor);
+}
+
+
+
+
+/* ************************ DESIGNING CONTACT US SECTION ***************************  */
+
+.contactUsMain {
+    margin: 80px 0px
+}
+
+.contactHeadingDiv{
+    position: relative;
+}
+.contactHeadingDiv::after{
+    width: 18%;
+}
+
+.mainForm {
+    margin-top: 50px;
+}
+
+.mainForm form {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.mainForm form input,
+.mainForm form textarea {
+    padding: 10px 12px;
+    border: 1px solid var(--extraLightBlack);
+    width: 100%;
+    resize: none;
+}
+
+.usernameEmailDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.usernameEmailDiv .usernameDiv,
+.usernameEmailDiv .emailDiv {
+    width: 100%;
+}
+
+::placeholder {
+    font-weight: 500;
+}
+
+.submitBtnDiv {
+    width: 18%;
+}
+.submitBtnDiv .submitBtn{
+    background-color: var(--mainColor);
+    margin: 10px 0px;
+    padding: 10px 20px;
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 600;
+    border: 2px solid var(--mainColor);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.submitBtnDiv .submitBtn:hover{
+    background: none;
+    color: var(--mainColor);
+}
